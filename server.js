@@ -28,7 +28,7 @@ const storeItems = new Map([
 ]);
 
 app.get("/", (req, res) => {
-  res.render("checkout", {
+  res.render("checkout2", {
     paypalClientId: process.env.PAYPAL_CLIENT_ID,
   });
 });
