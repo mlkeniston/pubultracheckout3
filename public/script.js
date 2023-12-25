@@ -9,7 +9,7 @@ paypal
         body: JSON.stringify({
           items: [
             {
-              id: 1,
+              id: 3,
               quantity: 1,
             },
           ],
